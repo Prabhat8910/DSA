@@ -3,7 +3,7 @@ import java.util.Scanner;
 public class FunctionOfFactorial {
     public static void Factorial(int n){
         if(n<0){
-            System.out.println("invalid");
+            System.out.println("invalid Number");
         }
         int factorial = 1;
         for(int i=n; i>=1; i--){
